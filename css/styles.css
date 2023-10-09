@@ -66,4 +66,43 @@ nav .desktopNavigation .crosbyMidterm {
   }
 }
 
+.pageContent {
+  max-width: 1920px;
+  padding: 20px;
+}
+.pageContent h1 {
+  margin-bottom: 30px;
+}
+.pageContent p {
+  margin-bottom: 20px;
+}
+.pageContent input {
+  width: 40%;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+@media (max-width: 700px) {
+  .pageContent h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .pageContent p {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 340px) {
+  .pageContent {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .pageContent h1 {
+    font-size: 12px;
+  }
+  .pageContent p {
+    font-size: 9px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

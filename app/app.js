@@ -1,4 +1,4 @@
-import {switchPage} from "../services/services.js";
+import {changePage} from "../services/services.js";
 
 function initializeSite() {
     $(window).on("hashchange", newRoute);
@@ -9,7 +9,7 @@ function newRoute() {
     let hashTag = window.location.hash;
     let pageID = hashTag.replace("#", "");
 
-    switchPage(pageID);
+    changePage(pageID);
 }
 
 $(document).ready(function () {
