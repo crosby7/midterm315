@@ -1,0 +1,33 @@
+nav{
+    padding: 26px 50px;
+    background-color: purple;
+
+    .desktopNavigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        width: 100%;
+
+        a{
+            font-size: 20px;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .crosbyMidterm{
+            margin-right: 200px;
+        }
+
+        // @media screen only and (max-width: 865px) {
+        //     a{
+        //         font-size: 50px;
+        //     }
+        //     // font-size: 50px;
+        // }
+    }
+    
+}
