@@ -30,6 +30,8 @@ nav .mobileNavigation .crosbyMidterm {
 }
 nav .mobileNavigation ul {
   list-style-type: none;
+  color: white;
+  font-size: 26px;
 }
 nav .mobileNavigation ul li {
   display: none;
@@ -40,6 +42,13 @@ nav .mobileNavigation ul li a {
   color: white;
   text-decoration: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+nav .mobileNavigation ul:hover i {
+  display: none;
+}
+nav .mobileNavigation ul:hover li {
+  display: block;
 }
 nav .desktopNavigation {
   display: flex;
