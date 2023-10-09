@@ -16,6 +16,31 @@ nav {
   padding: 26px 50px;
   background-color: purple;
 }
+nav .mobileNavigation {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .mobileNavigation .crosbyMidterm {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav .mobileNavigation ul {
+  list-style-type: none;
+}
+nav .mobileNavigation ul li {
+  display: none;
+}
+nav .mobileNavigation ul li a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 nav .desktopNavigation {
   display: flex;
   align-items: center;
@@ -31,6 +56,14 @@ nav .desktopNavigation a {
 }
 nav .desktopNavigation .crosbyMidterm {
   margin-right: 200px;
+}
+@media screen and (max-width: 865px) {
+  nav .desktopNavigation {
+    display: none;
+  }
+  nav .mobileNavigation {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

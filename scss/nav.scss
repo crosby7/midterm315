@@ -2,6 +2,37 @@ nav{
     padding: 26px 50px;
     background-color: purple;
 
+    .mobileNavigation{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .crosbyMidterm{
+            font-size: 20px;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        ul{
+            list-style-type: none;
+            
+            li{
+                display: none;
+                
+                a{
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+            }
+        }
+    }
+
     .desktopNavigation{
         display: flex;
         align-items: center;
@@ -18,16 +49,24 @@ nav{
 
         }
 
+
+        
+
         .crosbyMidterm{
             margin-right: 200px;
         }
 
-        // @media screen only and (max-width: 865px) {
-        //     a{
-        //         font-size: 50px;
-        //     }
-        //     // font-size: 50px;
-        // }
+        
     }
+
+    @media screen and (max-width: 865px) {
+        .desktopNavigation{
+            display: none;
+        }
+        .mobileNavigation{
+            display: flex;
+        }
+    }
+    
     
 }
