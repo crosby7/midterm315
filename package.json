@@ -1,0 +1,26 @@
+{
+  "name": "midterm315",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass scss/styles.scss css/styles.css -W"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crosby7/midterm315.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crosby7/midterm315/issues"
+  },
+  "homepage": "https://github.com/crosby7/midterm315#readme",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
